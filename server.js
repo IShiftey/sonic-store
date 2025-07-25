@@ -33,7 +33,7 @@ app.post('/create_preference', async (req, res) => {
             pending: "http://localhost:3000/pendente.html"
         },
         auto_return: "approved",
-        notification_url: "http://seuservidor.com/webhook"
+        notification_url: "notification_url: "https://sonic-store.onrender.com/webhook"
     };
     try {
         const response = await mercadopago.preferences.create(preference);
